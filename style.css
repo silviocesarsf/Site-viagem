@@ -16,6 +16,10 @@ body {
 	width: 100%;
 }
 
+body::-webkit-scrollbar {
+	display: none;
+}
+
 body,
 html ::selection {
 	background: #d8d8d8;
