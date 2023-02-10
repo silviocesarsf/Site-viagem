@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>César Travels</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="index.js" defer></script>
+		<script
+			src="https://kit.fontawesome.com/8afb633b86.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<section id="home" class="home">
+			<video
+				class="bg-video"
+				src="assets/background-video.mp4"
+				autoplay
+				loop
+				muted
+				plays-inline
+			></video>
+			<header>
+				<div class="logo">
+					<img src="assets/logo-resized.png" alt="" />
+				</div>
+				<div class="navbar">
+					<ul>
+						<a href="#home"><li>Home</li></a>
+						<a id="searchMenu" href="#search"
+							><li>Buscar</li></a
+						>
+						<a href="#offers"><li>Ofertas</li></a>
+						<a href="#attractions"><li>Atrações</li></a>
+					</ul>
+				</div>
+				<div class="menu-mob_icon">
+					<i class="fa-solid fa-bars"></i>
+				</div>
+				<div class="menu-close_icon off-menu">
+					<i class="fa-solid fa-xmark"></i>
+				</div>
+				<div class="menu off-menu">
+					<ul class="menu-mob_text off-menu">
+						<a href="#home"><li>Home</li></a>
+						<a id="searchMenu" href="#search"
+							><li>Buscar</li></a
+						>
+						<a href="#offers"><li>Ofertas</li></a>
+						<a href="#attractions"><li>Atrações</li></a>
+					</ul>
+					<div class="gradient-menu"></div>
+				</div>
+				<div class="bg-menu off-menu"></div>
+			</header>
+			<div class="home-content">
+				<div class="title-home">
+					<h1>
+						<span>César</span> Travels
+						<i class="fa-solid fa-location-dot"></i>
+					</h1>
+				</div>
+				<a href="#search"><button>Ver mais</button></a>
+			</div>
+		</section>
+		<section id="search" class="search">
+			<div class="search-pill">
+				<div class="from">
+					<label for="from"
+						><i class="fa-solid fa-plane-departure"></i
+						>De:</label
+					>
+					<input
+						id="from"
+						type="text"
+						placeholder="País, cidade ou aeroporto"
+					/>
+				</div>
+				<div class="to">
+					<label for="to"
+						><i class="fa-solid fa-plane-arrival"></i>
+						Para:</label
+					>
+					<input
+						type="text"
+						id="to"
+						placeholder="País, cidade ou aeroporto"
+					/>
+				</div>
+				<div class="date">
+					<label for="">Ida:</label>
+					<input
+						type="date"
+						id="date"
+						placeholder="Adicionar data"
+					/>
+				</div>
+				<div class="search-btn">
+					<button class="btn-search_pill">Buscar</button>
+				</div>
+			</div>
+			<div class="images-search">
+				<div class="image"></div>
+				<div class="image"></div>
+				<div class="image"></div>
+				<div class="image"></div>
+				<div class="image"></div>
+				<div class="image"></div>
+				<div class="image"></div>
+				<div class="image"></div>
+			</div>
+			<div class="cards">
+				<div class="card">
+					<i class="fa-solid fa-hotel"></i>
+					<h4>Hotéis</h4>
+				</div>
+				<div class="card">
+					<i class="fa-solid fa-car"></i>
+					<h4>Aluguel de carros</h4>
+				</div>
+				<div class="card">
+					<i class="fa-solid fa-earth-americas"></i>
+					<h4>Explore todos os lugares</h4>
+				</div>
+			</div>
+		</section>
+		<section id="offers" class="popular">
+			<div class="card-popular">
+				<div class="text-card_popular">
+					<h1>Sinta o calor</h1>
+					<p>
+						Os dias ensolarados chegaram para ficar com <br />
+						estes destinos quentes de última hora.
+					</p>
+					<button>Confira</button>
+				</div>
+			</div>
+			<div id="attractions" class="list-popular">
+				<h1>Populares no momento</h1>
+				<p>
+					Outros viajantes gostaram muito destes destinos. Busque
+					voos, hotéis e aluguéis de carros e embarque você
+					também nessa aventura.
+				</p>
+				<div class="list-city_popular_container">
+					<div class="list-city_popular_card">
+						<div class="photo"></div>
+						<div class="list-city_popular_text">
+							<p>Cidade</p>
+							<div class="list-city_popular_link">
+								<p>Passagens Aéreas</p>
+								<p>Hotéis</p>
+								<p>Aluguel de carros</p>
+							</div>
+						</div>
+					</div>
+					<div class="list-city_popular_card">
+						<div class="photo"></div>
+						<div class="list-city_popular_text">
+							<p>Cidade</p>
+							<div class="list-city_popular_link">
+								<p>Passagens Aéreas</p>
+								<p>Hotéis</p>
+								<p>Aluguel de carros</p>
+							</div>
+						</div>
+					</div>
+					<div class="list-city_popular_card">
+						<div class="photo"></div>
+						<div class="list-city_popular_text">
+							<p>Cidade</p>
+							<div class="list-city_popular_link">
+								<p>Passagens Aéreas</p>
+								<p>Hotéis</p>
+								<p>Aluguel de carros</p>
+							</div>
+						</div>
+					</div>
+					<div class="list-city_popular_card">
+						<div class="photo"></div>
+						<div class="list-city_popular_text">
+							<p>Cidade</p>
+							<div class="list-city_popular_link">
+								<p>Passagens Aéreas</p>
+								<p>Hotéis</p>
+								<p>Aluguel de carros</p>
+							</div>
+						</div>
+					</div>
+					<div class="list-city_popular_card">
+						<div class="photo"></div>
+						<div class="list-city_popular_text">
+							<p>Cidade</p>
+							<div class="list-city_popular_link">
+								<p>Passagens Aéreas</p>
+								<p>Hotéis</p>
+								<p>Aluguel de carros</p>
+							</div>
+						</div>
+					</div>
+					<div class="list-city_popular_card">
+						<div class="photo"></div>
+						<div class="list-city_popular_text">
+							<p>Cidade</p>
+							<div class="list-city_popular_link">
+								<p>Passagens Aéreas</p>
+								<p>Hotéis</p>
+								<p>Aluguel de carros</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="show-more">
+					<h1>
+						Reserve passagens aéreas baratas, hotéis e aluguéis
+						de carros no César Travels
+					</h1>
+					<div class="container-text_hidden">
+						<p>
+							Faça como 100 milhões de viajantes experientes e
+							compare passagens aéreas, hotéis e aluguéis de
+							carros de centenas de fornecedores. Descubra
+							como.
+						</p>
+						<i class="fa-solid fa-chevron-down"></i>
+						<div class="menu-hidded hide">
+							<div class="text-hidded hide">
+								<h1>
+									Busque no mundo inteiro. Vá para qualquer
+									lugar.
+								</h1>
+								<p>
+									Quer viajar, mas não se importa para onde?
+									Ou talvez você queira só descobrir um lugar
+									novo. Faça uma busca para "o mundo inteiro"
+									e encontre a passagem aérea com a melhor
+									promoção para qualquer destino em qualquer
+									data.
+								</p>
+								<h1>Encontre o dia mais barato para voar</h1>
+								<p>
+									Se você já sabe o destino e quer encontrar
+									a passagem aérea com a melhor promoção,
+									escolha "Mês mais barato" na busca. Assim,
+									você encontra passagens no dia mais barato.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="top-footer">
+				<div class="list-footer">
+					<ul>
+						<li>Ajuda</li>
+						<li>Ajustes de privacidade</li>
+						<li>Entrar</li>
+					</ul>
+				</div>
+				<div class="list-footer">
+					<ul>
+						<li>Politica de cookies</li>
+						<li>Politica de privacidade</li>
+						<li>Termos de serviço</li>
+						<li>Dados da empresa</li>
+					</ul>
+				</div>
+				<div class="list-footer">
+					<ul>
+						<li>Explorar</li>
+						<li>Empresa</li>
+						<li>Parceiros</li>
+						<li>Viagens</li>
+						<li>Sites internacionais</li>
+					</ul>
+				</div>
+			</div>
+			<div class="bottom-footer">
+				<p>
+					Compare voos e reserve passagens aéreas baratas para
+					qualquer lugar
+				</p>
+				<p>&copy; César Travels LTD 2022-2023</p>
+			</div>
+		</footer>
+	</body>
+</html>
