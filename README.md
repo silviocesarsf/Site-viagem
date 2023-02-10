@@ -1,2 +1,2 @@
 # Site-viagem
-Site de viagem 
+As imagens contidas no site são apenas de exemplo.
